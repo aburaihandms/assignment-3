@@ -27,16 +27,23 @@
         .manrope {
             font-family: 'Manrope', sans-serif;
         }
+
         .bg-hoky1 {
             background-image: url(./Images/2.png);
+            background-repeat: no-repeat;
+            background-size: auto;
         }
 
         .bg-hoky2 {
             background-image: url(./Images/3.png);
+            background-repeat: no-repeat;
+            background-size: auto;
         }
 
         .bg-hoky3 {
             background-image: url(./Images/4.png);
+            background-repeat: no-repeat;
+            background-size: auto;
         }
     </style>
 </head>
@@ -155,60 +162,49 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="lg:ml-12">
             <div>
                 <div class="flex justify-center items-center">
                     <div>
-                        <h1 class="text-[22px] lg:text-4xl font-extrabold text-center mb-4">Program Sections</h1>
+                        <h1 class="text-[22px] lg:text-4xl font-extrabold text-center my-4">Program Sections</h1>
                         <p class="text-[14px] lg:text-base font-medium mb-6 text-center w-[292px] lg:w-[607px] mx-auto">
-                            Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
-                            urna
-                            in sit nullam proin.
+                            Explore our diverse program sections, each offering unique insights, entertainment, and valuable
+                            content tailored to elevate your experience
                         </p>
                     </div>
                 </div>
                 <div class="grid grid-row2 lg:grid-cols-2 gap-4 lg:w-[1170px] border-dotted">
-                    <div class="w-[573px] h-[338px] bg-hoky1 rounded-2xl shadow-xl image-full">
+                    <div class="w-[335px] h-[244px] lg:w-[573px] lg:h-[338px] bg-hoky1 rounded-2xl shadow-xl bg-no-repeat justify-center items-center">
                         <div class="bg-[#00000072] h-full w-full rounded-2xl">
-                            <div class="pt-[120px] pl-5 text-white w-[495px] h-40">
-                                <h1 class="text-3xl mb-4 font-extrabold">Junior Program</h1>
-                                <p class="text-base font-medium mb-2">
-                                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
-                                    Tortor
-                                    congue
-                                    sed et in.
+                            <div class="pt-[50px] lg:pt-[120px] pl-5 text-white lg:w-[495px] h-40">
+                                <h1 class="text-[18px] lg:text-3xl mb-4 font-extrabold">Junior Program</h1>
+                                <p class="text-base font-medium mb-2 sm:w-[277px] sm:h-[96px]">
+                                    Empowering youth through our dynamic Junior Program.
                                 </p>
                                 <button class="bg-[#FF4240] px-5 py-2.5 rounded-lg">Register Now!</button>
                             </div>
                         </div>
                     </div>
-                    <div class="w-[573px] h-[338px] bg-hoky2 rounded-2xl shadow-xl image-full">
+                    <div class="w-[330px] h-[236px] lg:w-[573px] lg:h-[338px] bg-hoky2 rounded-2xl shadow-xl bg-no-repeat justify-center items-center">
                         <div class="bg-[#00000072] h-full w-full rounded-2xl">
-                            <div class="pt-[120px] pl-5 text-white w-[495px] h-40">
-                                <h1 class="text-3xl mb-4 font-extrabold">Junior Program</h1>
-                                <p class="text-base font-medium mb-2">
-                                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
-                                    Tortor
-                                    congue
-                                    sed et in.
+                            <div class="pt-[50px] lg:pt-[120px] pl-5 text-white w-[335px] lg:w-[495px] h-40">
+                                <h1 class="text-3xl mb-4 font-extrabold">Teenager Program</h1>
+                                <p class="text-base font-medium mb-2 sm:w-[277px] sm:h-[96px]">
+                                    Unlocking creativity and potential in a vibrant, engaging environment
                                 </p>
                                 <button class="bg-[#FF4240] px-5 py-2.5 rounded-lg">Register Now!</button>
                             </div>
                         </div>
                     </div>
+                    
                     <div class="grid gap-4 lg:col-span-2">
-                        <div class="lg:w-[1170px] h-[338px] lg:bg-no-repeat bg-hoky3 rounded-2xl bg-cover">
+                        <div class="w-[330px] h-[236px] lg:w-[1170px] lg:h-[338px] lg:bg-no-repeat bg-hoky3 rounded-2xl bg-cover">
                             <div class="bg-[#00000072] h-full w-full rounded-2xl">
-                                <div class="pt-[120px] pl-5 text-white w-[495px] h-40">
-                                    <h1 class="text-3xl mb-4 font-extrabold">Junior Program</h1>
+                                <div class="pt-[50px] lg:pt-[120px] pl-5 text-white lg:w-[495px] h-40">
+                                    <h1 class="text-3xl mb-4 font-extrabold">Professional Program</h1>
                                     <p class="text-base font-medium mb-2">
-                                        Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
-                                        Tortor
-                                        congue
-                                        sed et in.
+                                        Professional Program: Elevate your skills and career with our targeted, industry-focused
+                                        training and resources
                                     </p>
                                     <button class="bg-[#FF4240] px-5 py-2.5 rounded-lg">Register Now!</button>
                                 </div>
@@ -221,15 +217,246 @@
         </section>
         <!-- start Our New Products section -->
         <section>
-            <div>
-                <div class="w-[573px] h-56 border-2 rounded-2xl border-slate-200">
+
+            <h1 class="text-center font-extrabold lg:text-4xl mt-32">
+                Our New Products
+            </h1>
+            <p class="text-center font-medium sm:text-[14px] lg:text-base mx-auto mt-5 mb-12 w-[292px] h-[72px] lg:w-[600px] lg:h-[50px]">
+                Explore our latest innovations in this section, featuring cutting-edge products designed with excellence
+                to
+                enhance your experience.
+            </p>
+            <div class=" grid grid-rows-1 lg:grid-cols-2 gap-4 ml-2">
+                <!-- card 1 -->
+                <div class="w-[335px] h-[453px] lg:w-[573px] lg:h-56 border-2 rounded-2xl border-slate-200 grid grid-rows-1 lg:flex justify-center items-center lg:p-5 p-3">
                     <div>
-                        <img src="./Images/5.png">
+                        <img class="w-[280px] h-[165px] sm:ml-4 lg:w-[280px] lg:h[272px]" src="./Images/5.png">
                     </div>
-                    <div>
+                    <div class="ml-5">
+                        <div class="flex gap-4">
+                            <div class="flex gap-2">
+                                <img class="w-6 h-6" src="./Images/icons8-star-48.png">
+                                <h6>5.0</h6>
+                            </div>
+                            <div class="flex gap-2 opacity-55">
+                                <img class="w-6 h-6" src="./Images/icons8-visible-48.png">
+                                <h6>20</h6>
+                            </div>
+                            <div class="flex gap-2 opacity-55">
+                                <img class="w-6 h-6" src="./Images/icons8-love-48.png">
+                                <h6>200</h6>
+                            </div>
+                        </div>
                         <div>
-                            <div class="rating">
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <h1 class="text-xl font-extrabold mt-2">World Cup Flags Football</h1>
+                            <p class="my-4">
+                                Stylish World Cup-themed T-shirts, capturing the spirit of football's biggest event
+                            </p>
+                            <div class="grid grid-rows-1 lg:flex lg:justify-around">
+                                <div>
+                                    <h2 class="text-comoncol text-lg font-extrabold">Price - $22.00</h2>
+                                </div>
+                                <div class="flex">
+                                    <div>
+                                        <img src="./Images/Frame.svg">
+                                    </div>
+                                    <h6 class="font-medium text-base">Delivery Fee : Free</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="w-[335px] h-[453px] lg:w-[573px] lg:h-56 border-2 rounded-2xl border-slate-200 grid grid-rows-1 lg:flex justify-center items-center lg:p-5 p-3">
+                    <div>
+                        <img class="w-[280px] h-[165px] sm:ml-4 lg:w-[280px] lg:h[272px]" src="./Images/5.png">
+                    </div>
+                    <div class="ml-5">
+                        <div class="flex gap-4">
+                            <div class="flex gap-2">
+                                <img class="w-6 h-6" src="./Images/icons8-star-48.png">
+                                <h6>5.0</h6>
+                            </div>
+                            <div class="flex gap-2 opacity-55">
+                                <img class="w-6 h-6" src="./Images/icons8-visible-48.png">
+                                <h6>20</h6>
+                            </div>
+                            <div class="flex gap-2 opacity-55">
+                                <img class="w-6 h-6" src="./Images/icons8-love-48.png">
+                                <h6>200</h6>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-extrabold mt-2">World Cup Flags Football</h1>
+                            <p class="my-4">
+                                Stylish World Cup-themed T-shirts, capturing the spirit of football's biggest event
+                            </p>
+                            <div class="grid grid-rows-1 lg:flex lg:justify-around">
+                                <div>
+                                    <h2 class="text-comoncol text-lg font-extrabold">Price - $22.00</h2>
+                                </div>
+                                <div class="flex">
+                                    <div>
+                                        <img src="./Images/Frame.svg">
+                                    </div>
+                                    <h6 class="font-medium text-base">Delivery Fee : Free</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="w-[335px] h-[453px] lg:w-[573px] lg:h-56 border-2 rounded-2xl border-slate-200 grid grid-rows-1 lg:flex justify-center items-center lg:p-5 p-3">
+                    <div>
+                        <img class="w-[280px] h-[165px] sm:ml-4 lg:w-[280px] lg:h[272px]" src="./Images/5.png">
+                    </div>
+                    <div class="ml-5">
+                        <div class="flex gap-4">
+                            <div class="flex gap-2">
+                                <img class="w-6 h-6" src="./Images/icons8-star-48.png">
+                                <h6>5.0</h6>
+                            </div>
+                            <div class="flex gap-2 opacity-55">
+                                <img class="w-6 h-6" src="./Images/icons8-visible-48.png">
+                                <h6>20</h6>
+                            </div>
+                            <div class="flex gap-2 opacity-55">
+                                <img class="w-6 h-6" src="./Images/icons8-love-48.png">
+                                <h6>200</h6>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-extrabold mt-2">World Cup Flags Football</h1>
+                            <p class="my-4">
+                                Stylish World Cup-themed T-shirts, capturing the spirit of football's biggest event
+                            </p>
+                            <div class="grid grid-rows-1 lg:flex lg:justify-around">
+                                <div>
+                                    <h2 class="text-comoncol text-lg font-extrabold">Price - $22.00</h2>
+                                </div>
+                                <div class="flex">
+                                    <div>
+                                        <img src="./Images/Frame.svg">
+                                    </div>
+                                    <h6 class="font-medium text-base">Delivery Fee : Free</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="w-[335px] h-[453px] lg:w-[573px] lg:h-56 border-2 rounded-2xl border-slate-200 grid grid-rows-1 lg:flex justify-center items-center lg:p-5 p-3">
+                    <div>
+                        <img class="w-[280px] h-[165px] sm:ml-4 lg:w-[280px] lg:h[272px]" src="./Images/5.png">
+                    </div>
+                    <div class="ml-5">
+                        <div class="flex gap-4">
+                            <div class="flex gap-2">
+                                <img class="w-6 h-6" src="./Images/icons8-star-48.png">
+                                <h6>5.0</h6>
+                            </div>
+                            <div class="flex gap-2 opacity-55">
+                                <img class="w-6 h-6" src="./Images/icons8-visible-48.png">
+                                <h6>20</h6>
+                            </div>
+                            <div class="flex gap-2 opacity-55">
+                                <img class="w-6 h-6" src="./Images/icons8-love-48.png">
+                                <h6>200</h6>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-extrabold mt-2">World Cup Flags Football</h1>
+                            <p class="my-4">
+                                Stylish World Cup-themed T-shirts, capturing the spirit of football's biggest event
+                            </p>
+                            <div class="grid grid-rows-1 lg:flex lg:justify-around">
+                                <div>
+                                    <h2 class="text-comoncol text-lg font-extrabold">Price - $22.00</h2>
+                                </div>
+                                <div class="flex">
+                                    <div>
+                                        <img src="./Images/Frame.svg">
+                                    </div>
+                                    <h6 class="font-medium text-base">Delivery Fee : Free</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div class="w-[335px] h-[453px] lg:w-[573px] lg:h-56 border-2 rounded-2xl border-slate-200 grid grid-rows-1 lg:flex justify-center items-center lg:p-5 p-3">
+                    <div>
+                        <img class="w-[280px] h-[165px] sm:ml-4 lg:w-[280px] lg:h[272px]" src="./Images/5.png">
+                    </div>
+                    <div class="ml-5">
+                        <div class="flex gap-4">
+                            <div class="flex gap-2">
+                                <img class="w-6 h-6" src="./Images/icons8-star-48.png">
+                                <h6>5.0</h6>
+                            </div>
+                            <div class="flex gap-2 opacity-55">
+                                <img class="w-6 h-6" src="./Images/icons8-visible-48.png">
+                                <h6>20</h6>
+                            </div>
+                            <div class="flex gap-2 opacity-55">
+                                <img class="w-6 h-6" src="./Images/icons8-love-48.png">
+                                <h6>200</h6>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-extrabold mt-2">World Cup Flags Football</h1>
+                            <p class="my-4">
+                                Stylish World Cup-themed T-shirts, capturing the spirit of football's biggest event
+                            </p>
+                            <div class="grid grid-rows-1 lg:flex lg:justify-around">
+                                <div>
+                                    <h2 class="text-comoncol text-lg font-extrabold">Price - $22.00</h2>
+                                </div>
+                                <div class="flex">
+                                    <div>
+                                        <img src="./Images/Frame.svg">
+                                    </div>
+                                    <h6 class="font-medium text-base">Delivery Fee : Free</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div class="w-[335px] h-[453px] lg:w-[573px] lg:h-56 border-2 rounded-2xl border-slate-200 grid grid-rows-1 lg:flex justify-center items-center lg:p-5 p-3">
+                    <div>
+                        <img class="w-[280px] h-[165px] sm:ml-4 lg:w-[280px] lg:h[272px]" src="./Images/5.png">
+                    </div>
+                    <div class="ml-5">
+                        <div class="flex gap-4">
+                            <div class="flex gap-2">
+                                <img class="w-6 h-6" src="./Images/icons8-star-48.png">
+                                <h6>5.0</h6>
+                            </div>
+                            <div class="flex gap-2 opacity-55">
+                                <img class="w-6 h-6" src="./Images/icons8-visible-48.png">
+                                <h6>20</h6>
+                            </div>
+                            <div class="flex gap-2 opacity-55">
+                                <img class="w-6 h-6" src="./Images/icons8-love-48.png">
+                                <h6>200</h6>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-extrabold mt-2">World Cup Flags Football</h1>
+                            <p class="my-4">
+                                Stylish World Cup-themed T-shirts, capturing the spirit of football's biggest event
+                            </p>
+                            <div class="grid grid-rows-1 lg:flex lg:justify-around">
+                                <div>
+                                    <h2 class="text-comoncol text-lg font-extrabold">Price - $22.00</h2>
+                                </div>
+                                <div class="flex">
+                                    <div>
+                                        <img src="./Images/Frame.svg">
+                                    </div>
+                                    <h6 class="font-medium text-base">Delivery Fee : Free</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
