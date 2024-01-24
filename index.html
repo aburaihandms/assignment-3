@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'comoncol': '#FF4240',
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Hockeys</title>
+    <style>
+        .manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+        .bg-hoky1 {
+            background-image: url(./Images/2.png);
+        }
+
+        .bg-hoky2 {
+            background-image: url(./Images/3.png);
+        }
+
+        .bg-hoky3 {
+            background-image: url(./Images/4.png);
+        }
+    </style>
+</head>
+
+<body class="manrope">
+    <header class="md:container md:mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="Get Ticket" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <!-- <li><a>Contact</a></li> -->
+                        </ul>
+
+                    </div>
+                    <a class="btn btn-ghost text-xl">Hockey's</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="text-comoncol"><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-comoncol">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+        <div class="carousel w-full lg:h-[550px]">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="./Images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+                <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main class="md:container md:mx-auto">
+        <!-- start Professional Hockeys Club -->
+        <section>
+            <div class="text-center mt-[130px] mb-20">
+                <h1 class="text-4xl font-extrabold mb-6 ">Professional Hockeys Club</h1>
+                <p class="text-base font-medium h-36 lg:h-12 w-48 lg:w-[600px] ml-2 lg:ml-[320px]">
+                    Follow our hockey club's success journey with our progress bar! See real-time updates on team
+                    achievements,
+                    game
+                    highlights, and player milestones, showcasing our path to victory.
+                </p>
+            </div>
+            <div class="flex flex-col lg:flex-row lg:justify-around mt-20">
+                <div class="w-56 text-center">
+                    <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
+                    <h1 class="mt-4 text-xl font-semibold">Prayer Facility</h1>
+                    <p class="mt-2 w-56 h-14 text-base font-medium">
+                        A peaceful, inclusive space for reflection and prayer
+                    </p>
+                </div>
+                <div class="w-56 text-center">
+                    <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+                    <h1 class="mt-4 text-xl font-semibold">Prayer Facility</h1>
+                    <p class="mt-2 w-56 h-14 text-base font-medium">
+                        A peaceful, inclusive space for reflection and prayer
+                    </p>
+                </div>
+                <div class="w-56 text-center">
+                    <div class="radial-progress text-[#ffb546]" style="--value:90;" role="progressbar">90%</div>
+                    <h1 class="mt-4 text-xl font-semibold">Prayer Facility</h1>
+                    <p class="mt-2 w-56 h-14 text-base font-medium">
+                        A peaceful, inclusive space for reflection and prayer
+                    </p>
+                </div>
+                <div class="w-56 text-center">
+                    <div class="radial-progress text-[#4c8df1]" style="--value:80;" role="progressbar">80%</div>
+                    <h1 class="mt-4 text-xl font-semibold">Prayer Facility</h1>
+                    <p class="mt-2 w-56 h-14 text-base font-medium">
+                        A peaceful, inclusive space for reflection and prayer
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div class="flex justify-center items-center">
+                    <div>
+                        <h1 class="text-[22px] lg:text-4xl font-extrabold text-center mb-4">Program Sections</h1>
+                        <p class="text-[14px] lg:text-base font-medium mb-6 text-center w-[292px] lg:w-[607px] mx-auto">
+                            Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                            urna
+                            in sit nullam proin.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid grid-row2 lg:grid-cols-2 gap-4 lg:w-[1170px] border-dotted">
+                    <div class="w-[573px] h-[338px] bg-hoky1 rounded-2xl shadow-xl image-full">
+                        <div class="bg-[#00000072] h-full w-full rounded-2xl">
+                            <div class="pt-[120px] pl-5 text-white w-[495px] h-40">
+                                <h1 class="text-3xl mb-4 font-extrabold">Junior Program</h1>
+                                <p class="text-base font-medium mb-2">
+                                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
+                                    Tortor
+                                    congue
+                                    sed et in.
+                                </p>
+                                <button class="bg-[#FF4240] px-5 py-2.5 rounded-lg">Register Now!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[573px] h-[338px] bg-hoky2 rounded-2xl shadow-xl image-full">
+                        <div class="bg-[#00000072] h-full w-full rounded-2xl">
+                            <div class="pt-[120px] pl-5 text-white w-[495px] h-40">
+                                <h1 class="text-3xl mb-4 font-extrabold">Junior Program</h1>
+                                <p class="text-base font-medium mb-2">
+                                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
+                                    Tortor
+                                    congue
+                                    sed et in.
+                                </p>
+                                <button class="bg-[#FF4240] px-5 py-2.5 rounded-lg">Register Now!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid gap-4 lg:col-span-2">
+                        <div class="lg:w-[1170px] h-[338px] lg:bg-no-repeat bg-hoky3 rounded-2xl bg-cover">
+                            <div class="bg-[#00000072] h-full w-full rounded-2xl">
+                                <div class="pt-[120px] pl-5 text-white w-[495px] h-40">
+                                    <h1 class="text-3xl mb-4 font-extrabold">Junior Program</h1>
+                                    <p class="text-base font-medium mb-2">
+                                        Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
+                                        Tortor
+                                        congue
+                                        sed et in.
+                                    </p>
+                                    <button class="bg-[#FF4240] px-5 py-2.5 rounded-lg">Register Now!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- start Our New Products section -->
+        <section>
+            <div>
+                <div class="w-[573px] h-56 border-2 rounded-2xl border-slate-200">
+                    <div>
+                        <img src="./Images/5.png">
+                    </div>
+                    <div>
+                        <div>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
